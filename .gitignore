@@ -5,7 +5,12 @@ target/
 !**/src/test/**/target/
 
 ### Docker ###
-.docker-compose.yml
+###.docker-compose.yml
+
+### db.migration ###
+V1__create_table-answers_certification.sql
+V1__create_table-certification_student.sql
+V1__create_table-student.sql
 
 ### STS ###
 .apt_generated
